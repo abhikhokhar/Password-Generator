@@ -81,7 +81,7 @@ function App() {
       <div
         className="min-h-screen p-2 flex items-center justify-center bg-cover bg-center "
         style={{
-          backgroundImage: "url('bcimage.jpg')", 
+          backgroundImage: "url('/bcimage.jpg')", 
           animation: "gradientBG 15s ease infinite",
         }}
       >
