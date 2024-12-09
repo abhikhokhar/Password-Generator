@@ -1,0 +1,107 @@
+@keyframes fadeInBounce {
+    0% {
+      opacity: 0;
+      transform: scale(0.5) translateY(50px);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(1.05) translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+  }
+  
+ 
+  .button-hover {
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    
+  }
+  .fade-in-bounce {
+    background: transparent;
+    backdrop-filter: blur(10px); 
+    transition: box-shadow 0.3s ease, border 0.3s ease;
+    border-color: rgba(0, 255, 255, 0.6); 
+    box-shadow: 0 0 8px 2px rgba(0, 255, 255, 0.6);
+}
+
+  .blinking-cursor {
+    display: inline-block;
+    width: 10px;
+    height: 24px;
+    background-color: transparent;
+    border-left: 2px solid #00d1ff;
+    animation: blink 1s step-start infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  .button-hover:hover {
+    transform: scale(1.05);
+    background-color: #2563eb; 
+  }
+  @keyframes fadeInSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.glowing-input {
+  transition: box-shadow 0.3s ease;
+}
+.glowing-input:hover {
+  box-shadow: 0 0 8px 2px rgba(0, 255, 255, 0.6);
+}
+
+
+
+.password-container {
+  transition: transform 0.3s ease;
+}
+.password-container:hover {
+  transform: scale(1.02);
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+  
+    
